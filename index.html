@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script> 
+</head>
+<body>
+
+    <h1>Weather app showcase</h1>
+    <p>Please enter your zipcode</p>
+    <label for="fname">Zipcode:</label>
+    <input type="text" id="zipcode" name="zipcode"><br><br>
+    <input type="submit" value="Submit" onclick="zipCodeData()"/>
+
+    
+    <p>location:</p> <p id="location"></p>
+    <p>temp:</p> <p id="temp"></p>
+    <p>Forecast:</p> <div id="forcast"></div>
+    <p>Todays time:  <p id="divMsg"></p></p>
+    <p> Next day forecast</p> <p id="tomorrow"></p>
+    <p>temp:</p> <p id="temp1"></p>
+    <p>Forecast:</p> <div id="forcast1"></div>
+
+    <p> Third day forecast</p> <p id="3rd"></p>
+    <p>temp:</p> <p id="temp2"></p>
+    <p>Forecast:</p> <div id="forcast2"></div>
+
+    
+    Powered by <a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a>
+    <br>
+    <a href="https://www.weatherapi.com/" title="Free Weather API"><img src='//cdn.weatherapi.com/v4/images/weatherapi_logo.png' alt="Weather data by WeatherAPI.com" border="0"></a>
+</body>
+</html>
