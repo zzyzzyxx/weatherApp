@@ -14,7 +14,7 @@ function zipCodeData(){
         }  
    }  
 
-    const API=`http://api.weatherapi.com/v1/forecast.json?key=7501e5a1dbf441eb8d0154519221706&q=${zipcode}&days=3&aqi=no&alerts=no`
+    const API=`https://api.weatherapi.com/v1/forecast.json?key=7501e5a1dbf441eb8d0154519221706&q=${zipcode}&days=3&aqi=no&alerts=no`
 
   
 const showData=fetch(API)
